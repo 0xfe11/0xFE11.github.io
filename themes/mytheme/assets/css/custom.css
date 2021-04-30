@@ -1,0 +1,73 @@
+/* Palette https://lospec.com/palette-list/pencil-sketch */
+
+body {
+  background-color: #fffff7;
+  color: #0a030d;
+}
+
+#container {
+  width: 70%;
+  max-width: 75em;
+}
+
+#brand {
+  height: 1em;
+  text-align: center;
+}
+
+#header {
+  text-align: center;
+  border-bottom: 0em;
+}
+
+#content {
+  padding: 0.625em;
+}
+
+#menu {
+  text-align: center;
+}
+
+.postpromonav {
+  border-bottom: 0em;
+  border-top: 0em;
+}
+
+.postindex article {
+ border-bottom: 0em;
+ padding-bottom: 1em;
+}
+
+h1 {
+  color: #0a030d;
+  height: 0.5em;
+}
+
+a, a:visited, :link, :link:visited {
+  color: #202020;
+}
+
+:link:hover, :visited:hover {
+  color: #808080;
+}
+
+#footer {
+  border-top: 0em;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+
+#footer div {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  text-align: center;
+}
+
+#footer p {
+  margin-top: 0em;
+}
+
+.entry-title {
+  /* display: contents; */
+  display: table;
+}

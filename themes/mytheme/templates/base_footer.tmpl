@@ -1,0 +1,44 @@
+## -*- coding: utf-8 -*-
+
+<%def name="html_footer()">
+    %if content_footer:
+        <footer id="footer">
+            <div>
+                %if github_link:
+                <a href="${github_link}" target="_blank">
+                    <i class="fab fa-lg fa-github-alt"></i>
+                </a>
+                %endif
+                
+                %if gitlab_link:
+                <a href="${gitlab_link}" target="_blank">
+                    <i class="fab fa-lg fa-gitlab"></i>
+                </a>
+                %endif
+                
+                %if linkedin_link:
+                <a href="${linkedin_link}" target="blank">
+                    <i class="fab fa-lg fa-linkedin"></i>
+                </a>
+                %endif
+
+                %if cv_link:
+                <a href="${cv_link}">
+                    <i class="fas fa-lg fa-file-pdf"></i>
+                </a>
+                %endif
+
+                %if email_link:
+                <a href="${email_link}">
+                    <i class="fas fa-lg fa-at"></i>
+                </a>
+                %endif
+            </div>
+
+            <div>
+                <p>${content_footer}</p>
+            </div>
+            ${template_hooks['page_footer']()}
+        </footer>
+    %endif
+</%def>
